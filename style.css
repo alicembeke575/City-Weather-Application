@@ -1,17 +1,39 @@
+html {
+    font-family: "Raleway";
+    text-align: center;
+    background-color: #fffcf9;
+}
 body {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inputValue {
+  height: 30px;
+  width: 200px;
+  position: relative;
+  font-family: "Raleway";
+  justify-content: center;
+  border-radius: 8px;
+  background-color: rgba(161, 46, 46, 0);
+  outline: invert;
+}
+
+.searchButton {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
 }
 
 .display {
-    color: white;
-    background-color: #b9b6a5;
-    border-radius: 12px;
-    height: 100vh;
-    padding-top: 5px;
-    margin: 15px;
-    width: 100%;
-    max-width: 400px;
-    max-height: 250px;
+  color: white;
+  background-color: #b9b6a5;
+  border-radius: 12px;
+  height: 100vh;
+  padding-top: 5px;
+  margin: 15px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 250px;
 }
