@@ -27,6 +27,7 @@ body {
 
 
 #searchButton {
+    cursor: pointer;
     background-color: rgb(145, 142, 135);
     height: 30px;
     width: 150px;
