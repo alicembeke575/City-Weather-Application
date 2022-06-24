@@ -11,6 +11,7 @@ body {
     height: 100vh;
 }
 .search {
+    cursor: pointer;
     background-color: aqua;
 }
 .inputValue {
@@ -27,7 +28,6 @@ body {
 
 
 #searchButton {
-    cursor: pointer;
     background-color: rgb(145, 142, 135);
     height: 30px;
     width: 150px;
