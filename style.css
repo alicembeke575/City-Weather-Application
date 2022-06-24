@@ -1,39 +1,63 @@
 html {
     font-family: "Raleway";
     text-align: center;
-    background-color: #fffcf9;
+    
 }
+
 body {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+    background-color: #5e5c594d;
+   display: flex;
+    justify-content: center;
+    height: 100vh;
 }
-
+.search {
+    background-color: aqua;
+}
 .inputValue {
-  height: 30px;
-  width: 200px;
-  position: relative;
-  font-family: "Raleway";
-  justify-content: center;
-  border-radius: 8px;
-  background-color: rgba(161, 46, 46, 0);
-  outline: invert;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    font-family: "Sofia", sans-serif;
+    justify-content: center;
+    border-radius: 12px;
+    border-color: black;
+    background-color: rgba(165, 107, 107, 0);
+    outline: invert;
 }
 
-.searchButton {
-  height: 30px;
-  width: 100px;
-  border-radius: 20px;
+
+#searchButton {
+    background-color: rgb(145, 142, 135);
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
 }
 
 .display {
-  color: white;
-  background-color: #b9b6a5;
-  border-radius: 12px;
-  height: 100vh;
-  padding-top: 5px;
-  margin: 15px;
-  width: 100%;
-  max-width: 400px;
-  max-height: 250px;
+    display: flex;
+    color: white;
+    background-color: #524e3d;
+    border-radius: 12px;
+    height: 100vh;
+    padding-top: 5px;
+    margin: 15px;
+    width: 100%;
+    max-width: 400px;
+    max-height: 350px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5e5c594d;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
